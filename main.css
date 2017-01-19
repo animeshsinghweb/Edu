@@ -1,0 +1,61 @@
+
+*{
+	margin: 0 0 0 0;
+	padding: 0 0;
+}
+body{
+	background-color: none;
+}
+.up{
+	background: radial-gradient(circle,#009cde,#003087);
+}
+.icon{
+	font-size: 20px;
+	color: ghostwhite;
+}
+.icon p{
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.back{
+	background-color: red;
+	background-size: cover;
+}
+.mid{
+	margin:0 auto;
+
+}
+.middle{
+	width: 50%;
+	margin-left: 25%;
+	padding: 20px 20px;
+	border:1px solid green;
+}
+.ts{
+	margin-top: 15px;
+}
+.cool{
+	padding: 20px 20px;
+	font-weight: 100;
+}
+.pad{
+	padding: 20px 20px;
+}
+.pad .row a{
+	text-decoration: none;
+	color: #333;
+}
+.end{
+	
+}
+.foot{
+	background-color: rgba(29,29,29,1)
+}
+@media (max-width: 730px){
+	.middle{
+		width: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
