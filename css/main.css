@@ -11,6 +11,11 @@ body {
     background: radial-gradient(circle, #009cde, #003087);
 }
 
+.carousel img {
+    width: 100%;
+    height: 58em !important;
+}
+
 .icon {
     font-size: 20px;
     color: ghostwhite;
@@ -35,7 +40,7 @@ body {
     width: 50%;
     margin-left: 25%;
     padding: 20px 20px;
-    border: 1px solid green;
+    border: 2px solid green;
 }
 
 .ts {
@@ -56,11 +61,31 @@ body {
     color: #ffb300;
 }
 
-.end {}
+
+/*.end {}*/
+
+.foot h3 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
 
 .foot {
     background-color: rgba(29, 29, 29, 1);
     color: #fff;
+}
+
+.foot ul {
+    list-style: none;
+}
+
+.foot ul li {
+    padding: .74em;
+    color: #fff;
+}
+
+.foot ul a {
+    text-decoration: none;
+    color: #ffb300;
 }
 
 @media (max-width: 730px) {
